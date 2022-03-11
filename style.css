@@ -1,0 +1,90 @@
+body {
+    background-color: purple;
+}
+
+p, nav, a, h1, h2 {
+    color: white;
+}
+
+.header {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 25%;
+ margin-bottom: 3em;
+color: yellow;
+ }
+
+ul {
+    display: flex;
+    list-style-type: none;
+    list-style: none;   
+}
+a {
+    text-decoration: none;
+}
+li {
+    float:right; 
+    margin-right:20px; 
+  }
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    width: 1000px; 
+    margin: 0 auto; 
+    background: #fc0;
+    padding: 10px;
+    text-align: justify; 
+    
+}
+.myImg {
+    display: flex;
+
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 1000px; 
+    margin: 0 auto; 
+    background: orangered;
+    padding: 10px;
+    text-align: justify; 
+    
+}
+
+.knowledge {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+    background: blue;
+    padding: 10px;
+    text-align: justify;
+    color: white
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: white;
+}
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+    background: darkgreen;
+    padding: 10px;
+    text-align: justify;
+    color: white
+}
+
+
+
+.footer {
+    background-color: black;
+    flex: 0 0 auto;
+    margin: 0 0 auto ;
+}
